@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="image/logo2.png" alt="" class="logo">
+        <nav>
+            <a href="index.html">HOME</a></li>
+            <a href="about-us.html">ABOUT US</a></li>
+        </nav>
+        
+    </header>
+    <div class="slider">
+        <div class="list">
+            <!-- Homepage -->
+            <div class="item">
+                <img src="image/bg11.jpg" alt="">
+                <div class="content">
+                    <div class="banner">GREETINGS, FATIMANIANS!
+                    </div>
+                    <!-- <div class="title">GENERAL</div> -->
+                    <div class="topic">GENERAL CHEMISTRY</div>
+                    <div class="description">
+                        This website covers chemistry, including how it works, properties of solids and liquids, and various experimentation types.
+                    </div>
+                </div>
+            </div>
+            <!-- Introduction -->
+            <div class="item">
+                <img src="image/bg-s3.jpg" alt="">
+                <div class="content">
+                    <div class="banner">Introduction</div>
+                    <div class="title">What is</div>
+                    <div class="topic">CHEMISTRY?</div>
+                    <div class="description">
+                        It is one of the major branches of science. It studies the science of matter, the comparison, structure, and properties of substances, as well as the changes that they go through.
+                    </div>
+                    <!--  -->
+                    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="details">
+                            <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                            <div class="description font">
+                                Chemistry is sometimes called the “central science” because it provides a foundation for understanding both basic and applied scientific disciplines at a fundamental level.
+                                <br><br>
+                                It is also known as experimental science because of the cause-and-effect relationship, wherein it will start out with a hypothesis, then conduct an experiment that will lead to a conclusion. It is performed under controlled conditions in an activity and observes a natural or artificially created phenomenon. Because of chemistry, we can come up with things that haven't been discovered yet.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="togglePopup()">MORE INFO</button>
+                    </div>
+                </div>
+            </div>
+            <!-- State of matter -->
+            <div class="item">
+                <img src="image/bg8.jpg" alt="">
+                <div class="content">
+                    <div class="banner"></div>
+                    <div class="title light">STATE OF MATTER</div>
+                    <div class="topic light">SOLID, LIQUID & GAS</div>
+                    <div class="description light">
+                        According to Anne Helmenstin (2022), matter is anything that has mass and takes up space. It consists of subatomic particles, atoms, ions, and compounds. 
+                    </div>
+                    <div class="multi-btn">
+                        <div class="popup" id="popup-5">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                                <div class="description font">
+                                    Sometimes these particles are tightly bound and close together, while other times they are loosely connected and widely separated. 
+                                    States of matter describe the qualities displayed by matter. Basically, the state of matter of a substance depends on how much energy its particles have.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup()">MORE INFO</button>
+                        </div>
+                        <div class="popup" id="popup-6">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup66()">&times;</div>
+                                <div class="description solid">
+                                    <h1>S O L I D</h1>
+                                    According to (Lemon, Jones, 2003), the solid modeling approach completely and unambiguously defines the volume of a three-dimensional object. Solid models can be manipulated via set operations. For example, a new solid can be created by computing the volumetric union, difference, or intersection of two solids. This feature can be a powerful tool when constructing detailed, three-dimensional mechanical parts.
+                                    <br><br>
+                                    While several methods have been developed for defining solid models, the most popular method is called “boundary representation.” With the boundary representation method, a solid model is defined by representing the outer surface of the solid. This surface is a collection of individual faces, typically quadrilaterals or triangles. Each face defines either a linear surface patch or a higher-order surface such as a Bezier or B-spline surface.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup66()">S O L I D</button>
+                        </div>
+                        <div class="popup" id="popup-7">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup77()">&times;</div>
+                                <div class="description font">
+                                    <h1>L I Q U I D</h1>
+                                    According to Ingebrigsten, Schroder, and Dyre (2020), simple liquids are traditionally defined as many-body systems of classical particles interacting via radially symmetric pair potentials. According to Ryu and Egami (2020), liquid fragility characterizes how steeply the viscosity of a glass-forming liquid decreases with increasing temperature above the glass transition. It is one of the most fundamental properties of a liquid, with high importance for science and application.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup77()">L I Q U I D</button>
+                        </div>
+                        <div class="popup" id="popup-8">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup88()">&times;</div>
+                                <div class="description font">
+                                    <h1>G A S</h1>
+                                    According to Zavala-Araiza et al. (2015) natural gas has been described as a central element of the clean energy transition. According to Lissianski, Zamansky, and Gardiner Jr. (2012) a chemical reaction is the conversion of one kind of matter into another chemically different form; a combustion reaction is a fast chemical reaction in which a fuel combines with an oxidizer (usually oxygen from air) to form combustion products. Combustion reactions are described by writing the chemical symbols for the starting materials, the reactants, and the final products separated by an arrow that means "react with one another to form.".
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup88()">G A S</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experiment Solid -->
+            <div class="item">
+                <img src="image/bg5.jpg" alt="">
+                <div class="content">
+                    <!-- <div class="banner"></div> -->
+                    <div class="title">MAIN PROPERTIES</div>
+                    <div class="topic">OF SOLID</div>
+                    <div class="description">
+                        Such properties depend on the properties of the atoms that form the solid, on the way those atoms are arranged, and on the forces between them.
+                    </div>
+                    <div class="multi-btn">
+                        <div class="popup" id="popup-2">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>FREEZING POINT</h1>
+                                        It is the temperature at which a liquid becomes a solid. As with the melting point, increased pressure usually raises the freezing point.
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Water , Containers And Refrigerator 
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, find any container that is placed by the water; second, put the water inside the container; and third, after putting the water in the container, put it into the refrigerator until it becomes solid material. 
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" class="video-1" id="vid-1">
+                                                <source src="videos/freezing.mp4" type="video/mp4">
+                                                <source src="videos/freezing.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup()">FREEZING POINT</button>
+                        </div>
+                        <div class="popup" id="popup-9">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup99()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>MELTING POINT</h1>
+                                        The melting point is the temperature at which the solid and liquid forms of a pure substance can exist in equilibrium. As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat will then convert the solid into a liquid. 
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Ice
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        As the ice is heated, the motion of the molecules increases.
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" height="200px" class="video-2" id="vid-2">
+                                                <source src="videos/melting.mp4" type="video/mp4">
+                                                <source src="videos/melting.mp4" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup99()">MELTING POINT</button>
+                        </div>
+                        <div class="popup" id="popup-10">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup10()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>SUBLIMATION</h1>
+                                        The gaseous phase without changing into the liquid phase. This process is an endothermic phase transition that occurs at a temperature and pressure below the triple point of the substance.  
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Airspray
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, spray the air inside the restroom.
+                                        After that, close the door immediately. Lastly,
+                                        Observe the sublimation inside the restroom.
+                                    </div>    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" class="video-3" id="vid-3">
+                                                <source src="videos/sublimation.mp4" type="video/mp4">
+                                                <source src="videos/sublimation.mp4" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup10()">SUBLIMATION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experiment Liquid -->
+
+            <div class="item">
+                <img src="image/bg9.jpg" alt="">
+                <div class="content">
+                    <!-- <div class="banner"></div> -->
+                    <div class="title">MAIN PROPERTIES</div>
+                    <div class="topic">OF LIQUID</div>
+                    <div class="description">
+                        Such properties depend on the properties of the atoms that form the solid, on the way those atoms are arranged, and on the forces between them.
+                    </div>
+                    <div class="multi-btn">
+                        <div class="popup" id="popup-3">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>SURFACE TENSION</h1>
+                                        The property of the surface of a liquid that allows it to resist an external force is due to the cohesive nature of its molecules.
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Paper clip , Contatiner and Water
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, find any container that can hold the water; second, hold the clip and put it into the water; and third, make chemistry between two paper clips. and lastly, observe the paper clip.
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" class="video-4" id="vid-4">
+                                                <source src="videos/surfacetension.mp4" type="video/mp4">
+                                                <source src="videos/surfacetension.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup()">SURFACE TENSION</button>
+                        </div>
+                        <div class="popup" id="popup-11">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup11()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>CAPILLARY ACTION</h1>
+                                        The melting point is the temperature at which the solid and liquid forms of a pure substance can exist in equilibrium. As heat is applied to a solid, its temperature will increase until the melting point is reached. More heat will then convert the solid into a liquid. 
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Ice
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        As the ice is heated, the motion of the molecules increases.
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" height="200px" class="video-5" id="vid-5">
+                                                <source src="videos/capillary.mp4" type="video/mp4">
+                                                <source src="videos/capillary.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup11()">CAPILLARY ACTION</button>
+                        </div>
+                        <div class="popup" id="popup-12">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup12()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>VISCOSITY</h1>
+                                        The gaseous phase without changing into the liquid phase. This process is an endothermic phase transition that occurs at a temperature and pressure below the triple point of the substance.  
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Airspray
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, spray the air inside the restroom.
+                                        After that, close the door immediately. Lastly,
+                                        Observe the sublimation inside the restroom.
+                                    </div>    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" class="video-6" id="vid-6">
+                                                <source src="videos/viscosity.mp4" type="video/mp4">
+                                                <source src="videos/viscosity.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup12()">VISCOSITY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experiment Gas -->
+
+            <div class="item">
+                <img src="image/bg4.jpg" alt="">
+                <div class="content">
+                    <!-- <div class="banner"></div> -->
+                    <div class="title">MAIN PROPERTIES</div>
+                    <div class="topic">OF GAS</div>
+                    <div class="description">
+                        It includes their high compressibility, allowing them to be easily squeezed into smaller volumes under pressure. It also exhibits low densities compared to liquids and solids, resulting in their ability to diffuse rapidly and fill the entirety of their container. 
+                    </div>
+                    <div class="multi-btn">
+                        <div class="popup" id="popup-13">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>VAPOR PRESSURE</h1>
+                                        Vapor pressure is a measure of the tendency of a material to change into the gaseous or vapor state, and it increases with temperature. 
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Water, Ice , Can, & Pan
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, put the pan on fire. Second, put water inside the pan, and lastly, observe the water to see if boiling happens and some vaporization occurs.
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" class="video-7" id="vid-7">
+                                                <source src="videos/vaporpressure.mp4" type="video/mp4">
+                                                <source src="videos/vaporpressure.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup()">VAPOR PRESSURE</button>
+                        </div>
+                        <div class="popup" id="popup-14">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup14()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>BOILING POINT</h1>
+                                        Boiling point: the temperature at which the pressure exerted by the surroundings upon a liquid is equaled by the pressure exerted by the vapor of the liquid.
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Any pan , Water and Fire only
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        First, put the water on any pan; second, boil the water until bubbles form; and well done, that's the boiling point.
+                                    </div>    
+                                    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" height="200px" class="video-8" id="vid-8">
+                                                <source src="videos/boiling.mp4" type="video/mp4">
+                                                <source src="videos/boiling.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup14()">BOILING POINT</button>
+                        </div>
+                        <div class="popup" id="popup-15">
+                            <div class="overlay"></div>
+                            <div class="details">
+                                <div class="close-btn shadow" onclick="togglePopup15()">&times;</div>
+                                <div class="description style">
+                                    
+                                    <div class="exp-details">
+                                        <h1>MOLAR HEAT OF VAPORIZATION</h1>
+                                        The heat absorbed by one mole of that substance as it is converted from a liquid to a gas.   
+                                        <br>
+                                        <br>
+                                        <b>MATERIALS:</b> Pan , and Water only
+                                        <br>
+                                        <br>
+                                        <b>PROCEDURE:</b> 
+                                        NONE
+                                    </div>    
+                                    <div class="video">
+                                        <div class="vid-content">
+                                            <video controls autoplay muted loop width="300px" height="200px" class="video-9" id="vid-9">
+                                                <source src="videos/molarheat.mp4" type="video/mp4">
+                                                <source src="videos/molarheat.webm" type="video/webm">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons multi-btn">
+                            <button onclick="togglePopup15()">MOLAR HEAT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reference -->
+            <div class="item">
+                <img src="image/link-bg.jpg" alt="">
+                <div class="content">
+                    <!-- <div class="banner"></div> -->
+                    <div class="title">REFERENCE</div>
+                    <div class="topic">SOURCES</div>
+                    <div class="description font">
+                        </div>
+                    <div class="popup" id="popup-4">
+                        <div class="overlay"></div>
+                        <div class="details">
+                            <div class="close-btn shadow" onclick="togglePopup()">&times;</div>
+                            <div class="description links">
+                                https://pubs.rsc.org/en/content/articlehtml/2010/cs/b819318p?casa_token=_rN6cue_DYcAAAAA:ui23SgcfaHUt3Gv28tWnzusafD7Dd4wxwJUU-d3HWjbJd3_QdXZPWVgPinFQu3pvE-tjAH2umCb8jMw
+                                <br>
+                                <h3>(FREEZING POINT)</h3>
+                                https://www.britannica.com/science/freezing-point 
+                                <br>
+                                <h3>(SUBLIMATION)</h3>
+                                https://byjus.com/chemistry/sublimation/
+                                <br>
+                                <h3>(SURFACE TENSION)</h3>
+                                https://www.usgs.gov/special-topics/water-science-school/science/surface-tension-and-water?fbclid=IwAR22hd3rTkZrJnAh6T5aIQsCzUL-hRY3QFzIZ5Ozd8YuqFOXizQb2SyrZ4A#overview
+                                <br>
+                                <h3>(VAPOR PRESSURE)</h3>
+                                https://www.britannica.com/science/vapor-pressure                               
+                                <!-- https://canvas.instructure.com/login/canvas -->
+                                <br>
+                                <h3>(BOILING POINT)</h3>
+                                https://www.britannica.com/science/boiling-point
+                                <br>
+                                <h3>(VISCOSITY)</h3>
+                                https://en.wikipedia.org/wiki/Viscosity
+                                <br>
+                                <h3>(MOLAR HEAT OF VAPORIZATION)</h3>
+                                https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/17%3A_Thermochemistry/17.11%3A_Heats_of_Vaporization_and_Condensation#:~:text=<br>The%20molar%20heat%20of%20vaporization,a%20liquid%20to%20a%20gas
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="togglePopup()">SEE LINKS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thumbnail -->
+        <div class="thumbnail">
+            <!-- Introduction -->
+            <div class="item">
+                <img src="image/bg-s3.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        INTRODUCTION
+                    </div>
+                    <div class="description">
+                        CHEMISTRY
+                    </div>
+                </div>
+            </div>
+            <!-- State of Matter -->
+            <div class="item">
+                <img src="image/bg8.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        STATE OF 
+                    </div>
+                    <div class="description">
+                        MATTER
+                    </div>
+                </div>
+            </div>
+            <!-- Experiments Solid -->
+            <div class="item">
+                <img src="image/bg5.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        EXPERIMENTS
+                    </div>
+                    <div class="description">
+                        SOLID
+                    </div>
+                </div>
+            </div>
+            <!-- Experiments Liquid -->
+            <div class="item">
+                <img src="image/bg9.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        EXPERIMENTS
+                    </div>
+                    <div class="description">
+                        LIQUID
+                    </div>
+                </div>
+            </div>
+            <!-- Experiments Gas -->
+            <div class="item">
+                <img src="image/bg4.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        EXPERIMENTS
+                    </div>
+                    <div class="description">
+                        GAS
+                    </div>
+                </div>
+            </div>
+            <!-- thumbnail-5 -->
+            <div class="item">
+                <img src="image/link-bg.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        REFERENCE
+                    </div>
+                    <div class="description">
+                        LINKS
+                    </div>
+                </div>
+            </div>
+            <!-- thumbnail-6 -->
+            <div class="item">
+                <img src="image/bg11.jpg" alt="">
+                <div class="content">
+                    <div class="title">
+                        HOME PAGE
+                    </div>
+                    <div class="description">
+                        &nbsp&nbsp&nbsp&nbsp&nbsp
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <div class="time"></div>
+    </div>
+    
+    <script src="control.js"></script>
+
+</body>
+</html>
